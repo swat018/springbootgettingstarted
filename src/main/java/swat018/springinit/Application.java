@@ -1,4 +1,4 @@
-package me.swat018;
+package swat018.springinit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
