@@ -9,14 +9,17 @@ import org.springframework.stereotype.Component;
 public class SpringRunnner implements ApplicationRunner {
 
     @Autowired
-    JinwooProperties jinwooProperties;
+    private String hello;
+
+    @Autowired
+    private JinwooProperties jinwooProperties;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("=======================");
+        System.out.println(hello);
         System.out.println(jinwooProperties.getName());
-        System.out.println(jinwooProperties.getAge());
-        System.out.println(jinwooProperties.getSessionTimeout());
+        System.out.println(jinwooProperties.getFullName());
         System.out.println("=======================");
     }
 }

@@ -1,2 +1,6 @@
-swat018/springinit/Application.class
+swat018/springinit/config/TestConfiguration.class
+META-INF/spring-configuration-metadata.json
+swat018/springinit/config/BaseConfiguration.class
+swat018/springinit/JinwooProperties.class
 swat018/springinit/SpringRunnner.class
+swat018/springinit/Application.class
