@@ -20,10 +20,10 @@ public class SpringRunnner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info("=======================");
-        logger.info(hello);
-        logger.info(jinwooProperties.getName());
-        logger.info(jinwooProperties.getFullName());
-        logger.info("=======================");
+        logger.debug("=======================");
+        logger.debug(hello);
+        logger.debug(jinwooProperties.getName());
+        logger.debug(jinwooProperties.getFullName());
+        logger.debug("=======================");
     }
 }
